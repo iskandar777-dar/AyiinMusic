@@ -115,8 +115,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_1.join_chat("AyiinSupport")
-            await ASS_CLI_1.join_chat("AyiinXdSupport")
+            await ASS_CLI_1.join_chat("mazipace")
+            await ASS_CLI_1.join_chat("MAZIPACEFAMGALERY")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -232,8 +232,11 @@ async def initiate_bot():
 home_text_pm = f"""Hello ,
 My name is {BOT_NAME}.
 A Telegram Music+Video Streaming bot with some useful features.
+ᴊᴀɴɢᴀɴ ʀᴀɢᴜ ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴜᴘ ᴀɴᴅᴀ.
+All commands can be used with: / 
 
-All commands can be used with: / """
+☕️ 𝐌𝐚𝐧𝐚𝐠𝐞 𝐛𝐲 : @Scurytii ☕️
+"""
 
 
 @app.on_message(filters.command("help") & filters.private)
